@@ -5,9 +5,8 @@ import lisa from "./lisa.jpeg";
 import oblaka from "./oblaka.jpeg";
 import icon from "./icon.jpg";
 import './App.css';
+import {format} from "date-fns"
 
-
-const {format} = require('date-fns');
 
 const today = format(new Date(), 'dd.MM.yyyy HH:mm' )
 function App() {
